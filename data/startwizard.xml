@@ -261,7 +261,7 @@ if self.condition:
 	self.EGAMI_SkinSelector_Wizard()
 			</code>
 		</step>
-<!--		<step id="speedup1">
+		<step id="speedup1">
 			<text value="Do you want to activate and configure EGAMI Speed UP ?" />
 			<list>
 				<listentry caption="No" step="expert" />
@@ -277,7 +277,7 @@ self.condition = config.misc.installwizard.hasnetwork.value and config.misc.inst
 if self.condition:
 	self.EGAMI_SpeedUP_Wizard()
 			</code>
-		</step>-->
+		</step>
 		<step id="speedup1">
 			<text value="Would you like to install some default plugins such as IPTV Player ?" />
 			<displaytext value="Would you like to install some default plugins such as IPTV Player ?" />
